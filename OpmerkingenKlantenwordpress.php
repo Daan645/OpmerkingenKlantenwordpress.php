@@ -7,7 +7,7 @@
 
 /** Code die de tabel aanmaakt en er voor zorgt dat de juiste gegevens erin geprint worden */
 function tabel()
-    {}
+{}
 global $wpdb;
 $result = $wpdb->get_results( "SELECT first_name, last_name, email, mobile, comment FROM form_entry");
 
